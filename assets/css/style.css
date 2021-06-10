@@ -8,6 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
+/* Formatting for header element */
 header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -21,10 +22,12 @@ header h1 {
   font-size: 48px;
 }
 
+/* Highlights "seo" part in Horiseon */
 #seo {
   color: #d9dcd6;
 }
 
+/* Navigation bar formatting */
 .nav-bar {
   padding-top: 15px;
   margin-right: 20px;
@@ -37,6 +40,7 @@ header h1 {
   list-style-type: none;
 }
 
+/* Formats each navigation bar link to be inline */
 .nav-item {
   display: inline-block;
   margin-left: 25px;
@@ -51,6 +55,7 @@ p {
   font-size: 16px;
 }
 
+/* Banner image formatting */
 .hero {
   height: 800px;
   width: 100%;
@@ -69,12 +74,7 @@ p {
   margin-left: 25px;
 }
 
-.products {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
-}
-
+/* Formatting for benefits (aside) element */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -86,6 +86,7 @@ p {
   background-color: #2589bd;
 }
 
+/* Formatting for each section in benefits */
 .benefits-section {
   margin-bottom: 32px;
   color: #ffffff;
@@ -102,6 +103,15 @@ p {
   max-width: 150px;
 }
 
+
+/* Formatting for products (main) element */
+.products {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* Formatting for each section in products */
 .products-section {
   margin-bottom: 20px;
   padding: 50px;
@@ -120,6 +130,7 @@ p {
   font-size: 36px;
 }
 
+/* Formatting for footer */
 .footer {
   padding: 30px;
   clear: both;
